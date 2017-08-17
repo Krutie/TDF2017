@@ -1,21 +1,5 @@
-# infographics
+# Tour De France 2017 Infographics
 
-> A Vue.js project
+[Live Demo on SURGE.SH](http://bit.ly/2wSN58y)
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Contextualised Inforgraphic made with Le Tour 2017 data using VUe JS and Greensock. 
