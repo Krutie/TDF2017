@@ -1,0 +1,178 @@
+﻿[
+  {
+    "ID": 1,
+    "UCI_CODE": "SKY",
+    "NAME": " TEAM SKY",
+    "COUNTRY": "Great Britain",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 8
+  },
+  {
+    "ID": 2,
+    "UCI_CODE": "ALM",
+    "NAME": "AG2R LA MONDIALE",
+    "COUNTRY": "France",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 9
+  },
+  {
+    "ID": 3,
+    "UCI_CODE": "TFS",
+    "NAME": "TREK - SEGAFREDO",
+    "COUNTRY": "United States",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 8
+  },
+  {
+    "ID": 4,
+    "UCI_CODE": "BMC",
+    "NAME": "BMC RACING TEAM",
+    "COUNTRY": "United States",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 8
+  },
+  {
+    "ID": 5,
+    "UCI_CODE": "ORS",
+    "NAME": "ORICA - SCOTT",
+    "COUNTRY": "Australia",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 8
+  },
+  {
+    "ID": 6,
+    "UCI_CODE": "MOV",
+    "NAME": "MOVISTAR TEAM",
+    "COUNTRY": "Spain",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 8
+  },
+  {
+    "ID": 7,
+    "UCI_CODE": "CDT",
+    "NAME": "CANNONDALE DRAPAC PROFESSIONAL",
+    "COUNTRY": "United States",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 9
+  },
+  {
+    "ID": 8,
+    "UCI_CODE": "FVC",
+    "NAME": "TEAM FORTUNEO - OSCARO",
+    "COUNTRY": "France",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 8
+  },
+  {
+    "ID": 9,
+    "UCI_CODE": "LTS",
+    "NAME": "LOTTO SOUDAL",
+    "COUNTRY": "Belgium",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 7
+  },
+  {
+    "ID": 10,
+    "UCI_CODE": "AST",
+    "NAME": "ASTANA PRO TEAM",
+    "COUNTRY": "Kazakhstan",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 7
+  },
+  {
+    "ID": 11,
+    "UCI_CODE": "UAD",
+    "NAME": "UAE TEAM EMIRATES",
+    "COUNTRY": "United Arab Emirates",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 8
+  },
+  {
+    "ID": 12,
+    "UCI_CODE": "SUN",
+    "NAME": "TEAM SUNWEB",
+    "COUNTRY": "Germany",
+    "STAGE_VICTORIES": 4,
+    "RIDERS": 9
+  },
+  {
+    "ID": 13,
+    "UCI_CODE": "DEN",
+    "NAME": "DIRECT ENERGIE",
+    "COUNTRY": "France",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 9
+  },
+  {
+    "ID": 14,
+    "UCI_CODE": "WGG",
+    "NAME": "WANTY - GROUPE GOBERT",
+    "COUNTRY": "Belgium",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 9
+  },
+  {
+    "ID": 15,
+    "UCI_CODE": "QST",
+    "NAME": "QUICK - STEP FLOORS",
+    "COUNTRY": "Belgium",
+    "STAGE_VICTORIES": 5,
+    "RIDERS": 6
+  },
+  {
+    "ID": 16,
+    "UCI_CODE": "COF",
+    "NAME": "COFIDIS - SOLUTIONS CREDITS",
+    "COUNTRY": "France",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 9
+  },
+  {
+    "ID": 17,
+    "UCI_CODE": "TLJ",
+    "NAME": "TEAM LOTTO NL - JUMBO",
+    "COUNTRY": "Netherlands",
+    "STAGE_VICTORIES": 2,
+    "RIDERS": 5
+  },
+  {
+    "ID": 18,
+    "UCI_CODE": "BOH",
+    "NAME": " BORA - HANSGROHE",
+    "COUNTRY": "Germany",
+    "STAGE_VICTORIES": 2,
+    "RIDERS": 6
+  },
+  {
+    "ID": 19,
+    "UCI_CODE": "KAT",
+    "NAME": "TEAM KATUSHA ALPECIN",
+    "COUNTRY": "Switzerland",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 9
+  },
+  {
+    "ID": 20,
+    "UCI_CODE": "TBM",
+    "NAME": "BAHRAIN - MERIDA",
+    "COUNTRY": "Bahrein",
+    "STAGE_VICTORIES": 0,
+    "RIDERS": 7
+  },
+  {
+    "ID": 21,
+    "UCI_CODE": "DDD",
+    "NAME": "TEAM DIMENSION DATA",
+    "COUNTRY": "South Africa",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 7
+  },
+  {
+    "ID": 22,
+    "UCI_CODE": "FDJ",
+    "NAME": "FDJ FRANCE",
+    "COUNTRY": "France",
+    "STAGE_VICTORIES": 1,
+    "RIDERS": 3
+  }
+]

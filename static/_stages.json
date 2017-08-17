@@ -1,0 +1,233 @@
+﻿[
+  {
+    "ID": 1,
+    "NAME": "STAGE 01",
+    "DISTANCE": "14",
+    "ROUTE": "KMDÜSSELDORF / DÜSSELDORF",
+    "WINNER": "THOMAS G.",
+    "UCI_CODE": "SKY",
+    "TYPE": "Individual Time Trial",
+    "DATE": "Saturday July 1st",
+    "KEY_MOMENT": " Geraint Thomas takes his first win at 32"
+  },
+  {
+    "ID": 2,
+    "NAME": "STAGE 02",
+    "DISTANCE": "203.5",
+    "ROUTE": "DÜSSELDORF / LIÈGE",
+    "WINNER": "KITTEL M.",
+    "UCI_CODE": "QST",
+    "TYPE": "Flat",
+    "DATE": "Sunday July 2nd",
+    "KEY_MOMENT": " Marcel Kittel makes it ten"
+  },
+  {
+    "ID": 3,
+    "NAME": "STAGE 03",
+    "DISTANCE": "212.5",
+    "ROUTE": "VERVIERS / LONGWY",
+    "WINNER": "SAGAN P.",
+    "UCI_CODE": "BOH",
+    "TYPE": "Hilly",
+    "DATE": "Monday July 3rd",
+    "KEY_MOMENT": " Peter Sagan meets the expectations"
+  },
+  {
+    "ID": 4,
+    "NAME": "STAGE 04",
+    "DISTANCE": "207.5",
+    "ROUTE": "MONDORF-LES-BAINS / VITTEL",
+    "WINNER": "DEMARE A.",
+    "UCI_CODE": "FDJ",
+    "TYPE": "Flat",
+    "DATE": "Tuesday July 4th",
+    "KEY_MOMENT": " Arnaud Démare takes his first Tour de France victory"
+  },
+  {
+    "ID": 5,
+    "NAME": "STAGE 05",
+    "DISTANCE": "160.5",
+    "ROUTE": "VITTEL / LA PLANCHE DES BELLES FILLES",
+    "WINNER": "ARU F.",
+    "UCI_CODE": "AST",
+    "TYPE": "Hilly",
+    "DATE": "Wednesday July 5th",
+    "KEY_MOMENT": " Fabio Aru on the path of Vincenzo Nibali"
+  },
+  {
+    "ID": 6,
+    "NAME": "STAGE 06",
+    "DISTANCE": "216",
+    "ROUTE": "VESOUL / TROYES",
+    "WINNER": "KITTEL M.",
+    "UCI_CODE": "QST",
+    "TYPE": "Flat",
+    "DATE": "Thursday July 6th",
+    "KEY_MOMENT": " Kittel makes it two in Troyes"
+  },
+  {
+    "ID": 7,
+    "NAME": "STAGE 07",
+    "DISTANCE": "213.5",
+    "ROUTE": "TROYES / NUITS-SAINT-GEORGES",
+    "WINNER": "KITTEL M.",
+    "UCI_CODE": "QST",
+    "TYPE": "Flat",
+    "DATE": "Friday July 7th",
+    "KEY_MOMENT": " Marcel Kittel over the moon"
+  },
+  {
+    "ID": 8,
+    "NAME": "STAGE 08",
+    "DISTANCE": "187.5",
+    "ROUTE": "DOLE / STATION DES ROUSSES",
+    "WINNER": "CALMEJANE L.",
+    "UCI_CODE": "DEN",
+    "TYPE": "Hilly",
+    "DATE": "Saturday July 8th",
+    "KEY_MOMENT": " Lilian Calmejane claims first Tour de France victory"
+  },
+  {
+    "ID": 9,
+    "NAME": "STAGE 09",
+    "DISTANCE": "181.5",
+    "ROUTE": "NANTUA / CHAMBÉRY",
+    "WINNER": "URAN R.",
+    "UCI_CODE": "CDT",
+    "TYPE": "Mountain",
+    "DATE": "Sunday July 9th",
+    "KEY_MOMENT": " Rigoberto Uran takes his revenge"
+  },
+  {
+    "ID": 10,
+    "NAME": "STAGE 10",
+    "DISTANCE": "178",
+    "ROUTE": "PÉRIGUEUX / BERGERAC",
+    "WINNER": "KITTEL M.",
+    "UCI_CODE": "QST",
+    "TYPE": "Flat",
+    "DATE": "Tuesday July 11th",
+    "KEY_MOMENT": " Marcel Kittel does it again"
+  },
+  {
+    "ID": 11,
+    "NAME": "STAGE 11",
+    "DISTANCE": "203.5",
+    "ROUTE": "EYMET / PAU",
+    "WINNER": "KITTEL M.",
+    "UCI_CODE": "QST",
+    "TYPE": "Flat",
+    "DATE": "Wednesday July 12th",
+    "KEY_MOMENT": "Marcel Kittel is unstoppable"
+  },
+  {
+    "ID": 12,
+    "NAME": "STAGE 12",
+    "DISTANCE": "214.5",
+    "ROUTE": "PAU / PEYRAGUDES",
+    "WINNER": "BARDET R.",
+    "UCI_CODE": "ALM",
+    "TYPE": "Mountain",
+    "DATE": "Thursday July 13th",
+    "KEY_MOMENT": " Bardet wins at Peyragudes &  Aru takes the yellow jersey"
+  },
+  {
+    "ID": 13,
+    "NAME": "STAGE 13",
+    "DISTANCE": "101",
+    "ROUTE": "SAINT-GIRONS / FOIX",
+    "WINNER": "BARGUIL W.",
+    "UCI_CODE": "SUN",
+    "TYPE": "Mountain",
+    "DATE": "Friday July 14th",
+    "KEY_MOMENT": " Warren Barguil scores for France on Bastille Day"
+  },
+  {
+    "ID": 14,
+    "NAME": "STAGE 14",
+    "DISTANCE": "181.5",
+    "ROUTE": "BLAGNAC / RODEZ",
+    "WINNER": "MATTHEWS M.",
+    "UCI_CODE": "SUN",
+    "TYPE": "Hilly",
+    "DATE": "Saturday July 15th",
+    "KEY_MOMENT": " Michael Matthews dethrones the Olympic champion"
+  },
+  {
+    "ID": 15,
+    "NAME": "STAGE 15",
+    "DISTANCE": "189.5",
+    "ROUTE": "LAISSAC-SÉVÉRAC L'ÉGLISE / LE PUY-EN-VELAY",
+    "WINNER": "MOLLEMA B.",
+    "UCI_CODE": "TFS",
+    "TYPE": "Hilly",
+    "DATE": "Sunday July 16th",
+    "KEY_MOMENT": "Bauke Mollema takes his first Tour de France victory"
+  },
+  {
+    "ID": 16,
+    "NAME": "STAGE 16",
+    "DISTANCE": "165",
+    "ROUTE": "LE PUY-EN-VELAY / ROMANS-SUR-ISÈRE",
+    "WINNER": "MATTHEWS M.",
+    "UCI_CODE": "SUN",
+    "TYPE": "Flat",
+    "DATE": "Tuesday July 18th",
+    "KEY_MOMENT": "Michael Matthews makes it two... Boasson Hagen also"
+  },
+  {
+    "ID": 17,
+    "NAME": "STAGE 17",
+    "DISTANCE": "183",
+    "ROUTE": "LA MURE / SERRE-CHEVALIER",
+    "WINNER": "ROGLIC P.",
+    "UCI_CODE": "TLJ",
+    "TYPE": "Mountain",
+    "DATE": "Wednesday July 19th",
+    "KEY_MOMENT": " Primoz Roglic -  what a jump!"
+  },
+  {
+    "ID": 18,
+    "NAME": "STAGE 18",
+    "DISTANCE": "179.5",
+    "ROUTE": "BRIANÇON / IZOARD",
+    "WINNER": "BARGUIL W.",
+    "UCI_CODE": "SUN",
+    "TYPE": "Mountain",
+    "DATE": "Thursday July 20th",
+    "KEY_MOMENT": " Warren Barguil takes the polka dot jersey very high"
+  },
+  {
+    "ID": 19,
+    "NAME": "STAGE 19",
+    "DISTANCE": "222.5",
+    "ROUTE": "EMBRUN / SALON-DE-PROVENCE",
+    "WINNER": "BOASSON HAGEN E.",
+    "UCI_CODE": "DDD",
+    "TYPE": "Flat",
+    "DATE": "Friday July 21st",
+    "KEY_MOMENT": " Boasson Hagen spoils Belgium's national day party"
+  },
+  {
+    "ID": 20,
+    "NAME": "STAGE 20",
+    "DISTANCE": "22.5",
+    "ROUTE": "MARSEILLE / MARSEILLE",
+    "WINNER": "BODNAR M.",
+    "UCI_CODE": "BOH",
+    "TYPE": "Individual Time Trial ",
+    "DATE": "Saturday July 22nd",
+    "KEY_MOMENT": "Bodnar wins Marseille time trial Froome retains the lead"
+  },
+  {
+    "ID": 21,
+    "NAME": "STAGE 21",
+    "DISTANCE": "103",
+    "ROUTE": "MONTGERON / PARIS CHAMPS-ÉLYSÉES",
+    "WINNER": "GROENEWEGEN D.",
+    "UCI_CODE": "TLJ",
+    "TYPE": "Flat",
+    "DATE": "Sunday July 23rd",
+    "KEY_MOMENT": " Last sprint for Groenewegen &  Froome wins his fourth Tour"
+  }
+]
