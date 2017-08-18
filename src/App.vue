@@ -1,19 +1,19 @@
 <template>
   <div id="app">
+    <information></information>
     <stage></stage>
-    <footerArea></footerArea>
   </div>
 </template>
 
 <script>
 import stage from './components/stage'
-import footerArea from './components/footerArea.vue'
+import information from './components/information.vue'
 
 
 export default {
   name: 'app',
   components: {
-    stage, footerArea
+    stage, information
   },
 }
 </script>
@@ -32,7 +32,6 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #FFF;
-  margin-top: 5px;
 }
  .fade-enter-active, .fade-leave-active {
   transition: opacity .5s

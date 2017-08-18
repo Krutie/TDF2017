@@ -27,9 +27,9 @@
             }),
             activeTeam(){
                 return find(this.teams, (team) => { 
-                    if(this.stage.UCI_CODE) {
+                     this.$nextTick(function() {
                         return team.UCI_CODE == this.stage.UCI_CODE 
-                    }
+                    })
                 })
             }, 
         }, // end of computed
@@ -86,7 +86,7 @@
 </script>
 <style scoped>
 .wheel { fill:#f71b16; fill-opacity: 0.7; stroke-opacity: 1; stroke: #FFEB3B; stroke-dasharray: 0.5 2;stroke-width: 7; stroke: #4e3c40; }
-.team { font-size: 10px; cursor: pointer; fill: white; opacity: 0;}
+.team { font-size: 10px; cursor: not-allowed; fill: white; opacity: 0;}
 .spoke { fill: transparent; fill-opacity: 0.5; stroke: white; stroke-width: 0.5; stroke-dasharray: 1 1; }
 .active { font-weight: bold;  fill: #3b3a37; }
 </style>
