@@ -33,13 +33,8 @@
                  this.arrangeTeams();
               })
             },
-            // stage(newValue) { 
-            //     // this.rearrangeTeams()
-            // },
             team(newValue) {
-                // this.$nextTick(function() {
-                    this.rearrangeTeams()
-                // })
+                this.rearrangeTeams()
             }
         }, 
         methods: {
@@ -76,7 +71,6 @@
                 })
             }, // end of rearrangeTeams()
             isActive(uci_code) {
-                // if(this.team && uci_code == this.stage.UCI_CODE) {
                 if(uci_code == this.team.UCI_CODE) {
                         return true
                 }
