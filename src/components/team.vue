@@ -27,9 +27,10 @@
             }),
             activeTeam(){
                 return find(this.teams, (team) => { 
-                     this.$nextTick(function() {
+                    if(this.stage.UCI_CODE)
                         return team.UCI_CODE == this.stage.UCI_CODE 
-                    })
+                    else
+                        return team.UCI_CODE == "SKY" 
                 })
             }, 
         }, // end of computed
