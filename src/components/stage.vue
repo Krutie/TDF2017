@@ -18,7 +18,7 @@
        </g>  
 
        <stagedetail :stage="activeStageDetail"></stagedetail>
-       <team :stage="activeStageDetail"></team>
+       <team :team="activeTeam"></team>
        <chainwheel :stageId="activeStageId" :num="13"></chainwheel>
        <navigation :currentStageId="activeStageId" :stageLength="stages.length"
        @nextStage="nextStage()" @backStage="backStage()"></navigation>
@@ -45,11 +45,18 @@ export default {
   computed: {
     ...mapGetters({
         stages: 'getStages',
+        teams: 'getTeams'
     }),
     activeStageDetail() {
       return find(this.stages, (t) => { 
         return t.ID == this.activeStageId 
       })
+    }, 
+    activeTeam(){
+        return find(this.teams, (team) => { 
+            // console.log(this.stage.UCI_CODE)
+            return team.UCI_CODE == this.activeStageDetail.UCI_CODE 
+        })
     }, 
   },
   watch: {

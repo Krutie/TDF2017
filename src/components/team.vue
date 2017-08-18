@@ -7,7 +7,7 @@
             </text>
             <rect id="rect1" x="347" y="200" width="83" height="1" class="spoke"/>
         </g>
-        <teamdetail :team="activeTeam"></teamdetail>    
+        <teamdetail :team="team"></teamdetail>    
     </g>
 </template>
 <script>
@@ -16,7 +16,7 @@
     import teamdetail from './teamdetail.vue'
     export default {
         name: 'team',
-        props: ['stage'],
+        props: ['team'],
         components: { teamdetail },
         created() {
             this.fetchTeams()
@@ -25,14 +25,7 @@
             ...mapGetters({
                 teams: 'getTeams'
             }),
-            activeTeam(){
-                return find(this.teams, (team) => { 
-                    if(this.stage.UCI_CODE)
-                        return team.UCI_CODE == this.stage.UCI_CODE 
-                    else
-                        return team.UCI_CODE == "SKY" 
-                })
-            }, 
+          
         }, // end of computed
         watch: {
             teams(newValue) {
@@ -40,9 +33,14 @@
                  this.arrangeTeams();
               })
             },
-            stage(newValue) { 
-                this.rearrangeTeams()
-            },
+            // stage(newValue) { 
+            //     // this.rearrangeTeams()
+            // },
+            team(newValue) {
+                // this.$nextTick(function() {
+                    this.rearrangeTeams()
+                // })
+            }
         }, 
         methods: {
             ...mapActions({
@@ -61,13 +59,13 @@
                 let degrees = document.querySelectorAll(".team")
                 let angle = 360/this.teams.length;
                 map(degrees, (index, key) => {
-                    if(this.activeTeam.ID == key+1) {
+                    if(this.team.ID == key+1) {
                         TweenMax.to(index, 2, {
                             rotation: 0+'_short', transformOrigin: "100% 100%", opacity: 0.9, delay: 1,
                         });    
                     } else if (key == 0) {
                         TweenMax.to(index, 2, {
-                            rotation: (this.activeTeam.ID*angle)-angle+'_short',transformOrigin: "100% 100%", opacity: 0.9, delay: 1,
+                            rotation: (this.team.ID*angle)-angle+'_short',transformOrigin: "100% 100%", opacity: 0.9, delay: 1,
                         }); 
                     } else {
                         TweenMax.to(index, 2, {
@@ -78,7 +76,8 @@
                 })
             }, // end of rearrangeTeams()
             isActive(uci_code) {
-                if(this.stage && uci_code == this.stage.UCI_CODE) {
+                // if(this.team && uci_code == this.stage.UCI_CODE) {
+                if(uci_code == this.team.UCI_CODE) {
                         return true
                 }
             }, // end of isActive()
